@@ -24,7 +24,7 @@ public class GameController {
     }
 
     @PutMapping
-    @ApiOperation("Let's a player move.")
+    @ApiOperation("Lets a player move.")
     ResponseEntity<GameResource> playerMove(@ApiParam("The move of the player.")
                                             @Valid @RequestBody PlayerMoveDTO move) throws Exception {
         GameResource gameResource = gameService.playerMove(move);
