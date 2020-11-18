@@ -4,4 +4,4 @@ REST API for the popular game [tic tac toe](https://en.wikipedia.org/wiki/Tic-ta
 
 ##### 1. Start the application with your IDE or Maven
     
-##### 2. The REST documentation can then be found at http://localhost:8080/ap1/v1/swagger-ui.html
+##### 2. The REST documentation can then be found at http://localhost:8080/api/v1/swagger-ui.html
